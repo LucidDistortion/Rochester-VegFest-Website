@@ -1,11 +1,23 @@
 /*Background*/
 html { 
   background-color:#fffaeb;
+  width:100%;
+}
+
+body {
+	width:100%;
 }
 
 #header {
-    width:100%;
+	position: relative;
+	margin-right: 0;
+	margin-left: 0;
+    width: 100%;
+}
 
+#headerImg {
+	width: 100%;
+	height: auto;
 }
 
 /*Fonts*/
@@ -151,7 +163,13 @@ li
     height: 400px;   
     background-color: grey;
       }
+/*Contact Form*/
 
+#formfield {
+	width:80%;
+	margin-left:10%;
+	background-color:#29cfbd; 
+}
 /*Footer Content*/
 
 #accent {
