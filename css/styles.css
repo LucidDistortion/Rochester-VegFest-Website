@@ -1,0 +1,194 @@
+/*Background*/
+html { 
+  background-color:#fffaeb;
+}
+
+#header {
+    width:100%;
+
+}
+
+/*Fonts*/
+@font-face {
+    font-family:PoplarSTD;
+    src:url(../fonts/poplarstd.otf);
+}
+
+@font-face {
+    font-family:"Futura Condensed Medium";
+    src:url(../fonts/futura.ttc);
+}
+
+@font-face {
+    font-family:"Futura Condensed ExtraBold";
+    src:url(../fonts/futura.ttc);
+}
+
+/*Navigation Bar*/
+#nav {
+	width:100%;
+	height:50px;
+	position:relative;
+	float:left;
+	background-color:#6fba23;
+	font-family:"Futura Condensed Medium",Times;
+	font-size:24px;
+	color:#fffaeb;;
+	margin-top:-.1%;
+	}
+
+#pages {
+	width:100%;
+	list-style:none;
+	float:left;
+	text-align:center;
+
+	}
+
+li {
+	list-style:none;
+	float:left;
+	margin-left:4.5%;
+	margin-top:-.5%;	
+
+}
+
+a {
+	display:inline-block;
+
+}
+
+a:link {
+	color:#fffaeb;
+	text-decoration:none;
+	list-style-type:none;
+
+}
+
+a:visited {
+	color:#fffaeb;
+
+	}
+	
+a:hover {
+	color:#0b3e1e;
+	
+}
+
+#onpage {
+	color:#0b3e1e;
+	display:inline-block;
+	float:left;
+	margin:none;
+	padding-left:;
+	}
+
+h1 {
+	text-align:center;
+	margin-top:6%;
+	font-family:"PoplarSTD";
+	font-size:48px; 
+}
+
+h2 {
+	font-family:"PoplarSTD","Times New Roman";
+	font-size:30px;
+	color:black;
+	text-align:center;
+	margin-bottom:10%;
+}
+
+h3 { 
+	font-family:"PoplarSTD","Times New Roman";
+	font-size:24px;
+	color:#0b3e1e;
+	 }
+
+p {
+
+	font-family:"Futura Condensed Medium","Times New Roman";
+}
+
+#smallprint {
+	float:right;
+	font-size:14px;
+	position:relative;
+	margin-bottom:10px;
+	margin-right:40px;
+}
+
+p
+.legal1 {
+	color:#fffaeb;
+}
+
+p
+.legal2 {
+	color:#fffaeb;
+}
+
+#vendorfield {
+	margin-left:10%;
+	margin-top:3%;
+	margin-bottom:5%;
+	width:80%;
+	height:800px;
+	background-color:#29cfbd;
+}
+
+li
+
+.vendor {
+	margin-top:30%
+}
+
+#pdfbutton {
+	margin-left:40%;
+}
+
+#map {
+    width: 100%;
+    height: 400px;   
+    background-color: grey;
+      }
+
+/*Footer Content*/
+
+#accent {
+	width:100%;
+	height:15px;
+	background-color:#29cfbd;
+	float:left;
+	position:relative;
+}
+footer {
+	width:100%;
+	height:200px;
+	background-color:#6fba23;
+	float:left;
+	position:relative;
+}
+
+/*Mailing List*/
+
+
+#envelope {
+	width:80px;
+	margin-left:1.5%;
+	margin-top:2%;
+}
+
+
+#arrocravs {
+	width:250px;
+}
+
+#anchor {
+	width:100%;
+	height:25px;
+	background-color:#0b3e1e;
+	float:left;
+	position:relative;
+}
+
+
