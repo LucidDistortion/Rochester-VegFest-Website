@@ -1,0 +1,62 @@
+/* Background */
+body {
+	background-color: #fffaeb;
+}
+
+/* Header */
+#headerImg {
+	width: 100%;
+	height: auto;
+}
+
+/* Fonts */
+@font-face {
+    font-family:PoplarSTD;
+    src:url("../fonts/poplarstd.otf");
+}
+
+@font-face {
+    font-family:"Futura Condensed Medium";
+    src:url("../fonts/futura.ttc");
+}
+
+@font-face {
+    font-family:"Futura Condensed ExtraBold";
+    src:url("../fonts/futura.ttc");
+}
+
+/* Navigation Bar */
+.navbar {
+	background-color:#6fba23;
+	font-family:"Futura Condensed Medium",Times;
+	font-size:24px;
+	border-radius: 0px;
+}
+
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
+}
+
+.navbar .navbar-collapse a {
+	color:#fffaeb;
+}
+
+.navbar .navbar-collapse a:hover {
+	color:#0b3e1e;
+	background-color:#6fba23;
+}
+
+.navbar li {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.navbar .navbar-collapse .onPage {
+	color:#0b3e1e;
+}
