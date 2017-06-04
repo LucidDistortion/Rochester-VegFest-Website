@@ -1,0 +1,20 @@
+/* Replace div size & color values with whatever you want, border size can be changed from 5px to be thicker/thinner as well. Border color can also be changed. */
+/* Delete this file after copying the style into your stylesheet */
+
+/* Add the button to your page with <div class="button">Button Text</div> */
+
+/* Button, not pressed */
+div.button {
+    width: 300px;
+    height: 100px;
+    background-color: #e6ef39;
+    border-radius: 25px;
+    border: 5px outset;
+}
+
+/* Button pressed */
+
+div.button:active {
+	background-color: #e6ef39;
+    border: 5px inset;
+}
