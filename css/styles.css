@@ -108,6 +108,7 @@ h2 {
 	font-size:30px;
 	color:black;
 	text-align:center;
+	margin-top:4%;
 	margin-bottom:10%;
 }
 
@@ -156,12 +157,30 @@ p {
 li
 
 .vendor {
+	list-style: none
 	margin-top:30%
 }
 
-#pdfbutton {
-	margin-left:40%;
+/* Button, not pressed */
+div.button {
+	margin-left:32%;
+	margin-bottom:5%;
+    width:40%;
+    height: 50px;
+    background-color: #feb547;
+    border-radius: 12px;
+    border: 5px outset #2acebe;
+    text-align:center;
+
 }
+
+/* Button pressed */
+
+div.button:active {
+	background-color: #feb547;
+    border: 5px inset #2acebe;;
+}
+
 
 /* Embedded Google Maps */
 
