@@ -3,28 +3,50 @@
 <head>
 <meta charset="UTF-8">
 <title>Exhibitors</title>
+
+<!--Reset CSS-->
 <link rel="stylesheet" type="text/css" href="css/reset.css">
+<!--Bootstrap CSS-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!--Bootstrap JavaScript-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!--Custom CSS-->
+<link rel="stylesheet" type="text/css" href="css/styles_bootstrapped.css">
 <link rel="stylesheet" type="text/css" href="css/styles.css">
+
 </head>
 
 <body>
-
-<div id="header">
-	<img id="headerImg" src="images/other/vegfestheader.jpg">
-
-	<div id="nav">
-	<ul id="pages">
-		<li><a class="navLink" href="index.html">HOME</a></li>
-		<li><a class="navLink" href="eventinfo.html">EVENT INFO</a></li>
-		<li><a class="navLink" href="sponsors.html">SPONSORS</a></li>
-		<li id="onpage">EXHIBITORS</li>
-		<li><a class="navLink" href="speakers.html">SPEAKERS</a></li>
-		<li><a class="navLink" href="volunteer.html">VOLUNTEER</a></li>
-		<li><a class="navLink" href="updates.html">UPDATES</a></li>
-		<li><a class="navLink" href="contact.html">CONTACT</a></li>
-	</ul>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col"><img id="headerImg" src="images/other/vegfestheader.jpg"></div>
+	</div>
 </div>
-</div>
+<nav class="navbar">
+	<div class="container-fluid navbar-container">
+		<div class="navbar-header">
+			<!--<span class="navbar-toggle currentPage">EXHIBITORS</span>-->
+			<button type="button" class="navbar-toggle toggle-button" data-toggle="collapse" data-target="#navbar">
+				<span class="glyphicon glyphicon-menu-hamburger"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="nav navbar-nav">
+				<li class="navItem"><a class="navLink" href="index.html">HOME</a></li>
+				<li class="navItem"><a class="navLink" href="eventinfo.html">EVENT INFO</a></li>
+				<li class="navItem"><a class="navLink" href="sponsors.html">SPONSORS</a></li>
+				<li class="navItem"><a class="navLink navLink-current" href="exhibitors.html">EXHIBITORS</a></li>
+				<li class="navItem"><a class="navLink" href="speakers.html">SPEAKERS</a></li>
+				<li class="navItem"><a class="navLink" href="volunteer.html">VOLUNTEER</a></li>
+				<li class="navItem"><a class="navLink" href="updates.html">UPDATES</a></li>
+				<li class="navItem"><a class="navLink" href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
 
 
 
@@ -46,7 +68,7 @@
 <p id="smallprint">All exhibitors/vendors are subject to change.</p>
 </div>
 
-<div class="button"><a href="exhibitorpdf.html"><h2>Information about becoming an Exibitor!</h2></a></div>
+<a class="button" href="images/other/vendorpacket.pdf"><div class="button"><h2>Information about becoming an Exibitor!</h2></div></a>
 
 </div>
 
