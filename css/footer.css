@@ -1,0 +1,124 @@
+/*Footer Content*/
+
+#footer {
+	background-color:#6fba23;
+}
+
+#accent {
+	height:15px;
+	background-color:#29cfbd;
+}
+
+#footer-content {
+	padding: 10px;
+}
+
+/*Contact Form*/
+
+#mailing-list {
+	float: left;
+	width: 33.3%;
+}
+
+#social-media {
+	float: left;
+	width: 33.3%;
+}
+
+#arroc-logo {
+	float: left;
+	width: 33.3%;
+}
+
+#formfield {
+	background-color:#29cfbd; 
+}
+
+/*Mailing List*/
+#envelope {
+	width: 25%;
+}
+
+#arrocravs {
+	float:none;
+	width: 100%;
+	max-width: 322px !important;
+}
+
+#anchor {
+	background-color: #0b3e1e;
+	color:#fffaeb;
+	font-size: 18px;
+	font-family:"Futura Condensed Medium";
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.left {
+	position: relative;
+	float:left;
+}
+
+.right {
+	position: relative;
+	float: right;
+}
+
+div.anchorLinks-left {
+	text-align: left;
+}
+
+div.anchorLinks-right {
+	text-align: left;
+}
+
+a.anchorlink:hover {
+	color:#50f558;
+}
+
+@media screen and (max-width: 1100px) {
+
+	#mailing-list {
+		width: 100%;
+	}
+
+	#social-media {
+		width: 100%;
+	}
+
+	#arroc-logo {
+		width: 100%;
+	}
+	.left {
+		float: none;
+		text-align: center;
+	}	
+
+	.right {
+		float: none;
+		text-align: center;
+	}
+
+	#envelope {
+		width: 10%;
+	}
+
+	#arrocravs {
+		width: 50%;
+		margins:auto;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.left {
+		float: none;
+		text-align: center;
+		font-size: 14px
+	}
+
+	.right {
+		float: none;
+		text-align: center;
+		font-size: 14px;
+	}
+}
