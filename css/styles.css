@@ -1,41 +1,4 @@
-#pages {
-	width:100%;
-	list-style:none;
-	float:left;
-	text-align:center;
-
-	}
-
-li {
-	float:left;
-	margin-left:4.5%;
-	margin-top:-.5%;	
-}
-
-a {
-	display:inline-block;
-}
-
-a:link {
-	text-decoration:none;
-	list-style-type:none;
-
-}
-
-a:visited {
-	color:#fffaeb;
-
-	}
-	
-a.navLink:hover {
-	color:#0b3e1e;
-	
-}
-
-a.anchorlink:link {
-	color:#fffaeb;
-}
-
+/*Headings*/
 h1 {
 	text-align:center;
 	margin-top:6%;
@@ -58,12 +21,13 @@ h3 {
 	color:#0b3e1e;
 	 }
 
+/*Special Home Heading*/
 h4 {
 	font-family:"PoplarSTD","Times New Roman";
 	font-size:90px;		
 	color:#50f558;
 	margin-left:30%;
-	margin-top:3%;
+	margin-top:1%;
 	}
 
 h5 {
@@ -79,23 +43,53 @@ h6 {
 	float:left;
 }
 
+/*Paragraphs*/
 p {
-
+	width:40%;
 	font-family:"Futura Condensed Medium","Times New Roman";
+	font-size:24px;
+	margin-left:5%;
 }
 
-a.vendor:link {
-	color:;
-}
-
-#smallprint {
+p.smallprint {
 	float:right;
-	font-size:14px;
+	font-size:16px;
 	position:relative;
 	margin-bottom:10px;
 	margin-right:40px;
 }
+/*List Items*/
+li {
+	float:left;
+	margin-left:4.5%;
+	list-style-type:none;
+}
 
+/*Links*/
+a {
+	display:inline-block;
+}
+
+a:link {
+	text-decoration:none;
+	list-style-type:none;
+}
+
+a:visited {
+	color:#fffaeb;
+
+	}
+	
+a.navLink:hover {
+	color:#0b3e1e;
+	
+}
+
+a.anchorlink:link {
+	color:#fffaeb;
+}
+
+/*Boxes and b.gs*/
 #vendorfield {
 	margin-left:10%;
 	margin-top:3%;
@@ -105,12 +99,6 @@ a.vendor:link {
 	background-color:#29cfbd;
 }
 
-li
-
-.vendor {
-	list-style: none
-	margin-top:30%
-}
 
 /* Button, not pressed */
 div.button {
@@ -138,7 +126,6 @@ div.button:active {
 
 
 /* Embedded Google Maps */
-
 #map {
     width: 30%;
     height: 40%;
