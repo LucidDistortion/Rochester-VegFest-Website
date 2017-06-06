@@ -77,18 +77,6 @@ a.anchorlink:hover {
 }
 
 @media screen and (max-width: 1100px) {
-
-	#mailing-list {
-		width: 100%;
-	}
-
-	#social-media {
-		width: 100%;
-	}
-
-	#arroc-logo {
-		width: 100%;
-	}
 	.left {
 		float: none;
 		text-align: center;
@@ -97,15 +85,6 @@ a.anchorlink:hover {
 	.right {
 		float: none;
 		text-align: center;
-	}
-
-	#envelope {
-		width: 10%;
-	}
-
-	#arrocravs {
-		width: 50%;
-		margins:auto;
 	}
 }
 
@@ -120,5 +99,28 @@ a.anchorlink:hover {
 		float: none;
 		text-align: center;
 		font-size: 14px;
+	}
+
+	#mailing-list {
+		width: 50%;
+		margin-bottom: 10px;
+	}
+
+	#social-media {
+		width: 50%;
+		margin-bottom: 10px;
+	}
+
+	#arroc-logo {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	#envelope {
+		width: 100px;
+	}
+
+	#arrocravs {
+		width: 200px;
 	}
 }
