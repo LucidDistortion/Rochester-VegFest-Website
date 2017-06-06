@@ -54,6 +54,11 @@ body {
 	border-radius: 0px;
 }
 
+.toggle-button:hover {
+	color: #0b3e1e !important;
+	border-color: #0b3e1e !important;
+}
+
 
 .navbar-collapse {
 	width: 100% !important;
