@@ -2,8 +2,8 @@
 h1 {
 	text-align:center;
 	margin-top:6%;
-	font-family:"PoplarSTD";
-	font-size:48px; 
+	font-family:"PoplarSTD","Times New Roman";
+	font-size:50px; 
 	color:black;
 }
 
@@ -17,16 +17,19 @@ h2 {
 
 h3 { 
 	font-family:"PoplarSTD","Times New Roman";
-	font-size:24px;
+	font-size:26px;
 	color:#0b3e1e;
+	float:left;
+	margin-left:3%;
+
 	 }
 
 /*Special Home Heading*/
 h4 {
 	font-family:"PoplarSTD","Times New Roman";
-	font-size:90px;		
+	font-size:100px;		
 	color:#50f558;
-	margin-left:30%;
+	text-align:center;
 	margin-top:1%;
 	}
 
@@ -34,6 +37,8 @@ h5 {
 	font-family:"PoplarSTD","Times New Roman";
 	font-size:30px;
 	color:black;
+	text-align:center;
+	margin-left:2%;
 }
 
 h6 {
@@ -45,11 +50,12 @@ h6 {
 
 /*Paragraphs*/
 p {
-	width:40%;
+	width:80%;
 	font-family:"Futura Condensed Medium","Times New Roman";
 	font-size:24px;
 	margin-left:5%;
-}
+	color:black;
+	}
 
 p.smallprint {
 	float:right;
@@ -57,6 +63,18 @@ p.smallprint {
 	position:relative;
 	margin-bottom:10px;
 	margin-right:40px;
+}
+
+p.largeprint {
+	font-size:32px;
+	text-align:center;
+	margin-left:11%;
+}
+
+p.centered {
+	text-align:center;
+	margin-left:11%;
+	margin-bottom:2%;
 }
 /*List Items*/
 li {
@@ -124,6 +142,14 @@ div.button:active {
     border: 5px inset #2acebe;;
 }
 
+#wthlogo {
+	width:53%;
+	border:30px solid black;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:3%;
+}
 
 /* Embedded Google Maps */
 #map {
@@ -134,4 +160,3 @@ div.button:active {
     margin-bottom: 5%;
     background-color: grey;
 }
-

@@ -18,16 +18,19 @@
 #mailing-list {
 	float: left;
 	width: 33.3%;
+	background-color:red;
 }
 
 #social-media {
 	float: left;
 	width: 33.3%;
+	background-color: green;
 }
 
 #arroc-logo {
 	float: left;
 	width: 33.3%;
+	background-color:yellow;
 }
 
 #formfield {
@@ -36,13 +39,49 @@
 
 /*Mailing List*/
 #envelope {
-	width: 25%;
+	width: 20%;
+	float:left;
+	margin-top:1%;
+	margin-left:5%;
+
 }
 
+p.maildetail {
+	float:left;
+	font-size:16px;
+	color:#0b3e1e;
+	margin-top:-6%;
+	margin-left:20%;
+}
+
+#emailaddress {
+	float:left;
+}
+
+#emailsubmit {
+	width:125px;
+	background-color:#0b3e1e;
+	font-family:"Futura Condensed Medium";
+	font-size:18px;
+	color:#fffaeb;
+	border: 2px solid #50f558;
+	border-radius:12px;
+}
+
+/*Social Media*/
+h3.social {
+	margin-left:8%;
+}
+
+#iconbox {
+	float:left;
+}
+
+/*Main Sponsors*/
 #arrocravs {
-	float:none;
-	width: 100%;
-	max-width: 322px !important;
+	float:right;
+	width: 200px;
+	max-width: 200px !important;
 }
 
 #anchor {
