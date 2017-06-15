@@ -53,22 +53,24 @@
 <div id="main">
 
 <h1>CONTACT US!</h1>
-<p>You can use the form below to send us an email.   You can also join our mailing list, visit us on Facebook, leave a message at ARRoc’s voicemail (585) 445-3599, or write to us at:</p><br>
-<p>Rochester VegFest<br>
+<p class="bodytext">You can use the form below to send us an email.   You can also join our mailing list, visit us on Facebook, leave a message at ARRoc’s voicemail (585) 445-3599, or write to us at:</p><br>
+<p class="bodytext">Rochester VegFest<br>
 P.O. Box 18415<br>
 Rochester, NY 14618</p>
 
-<div id="vendorfield">
+<div id="contactfield">
 	<form action="/submit.php" method="post" name="contactform">
 
-	<p>Name <input type="text" name="name" required><br></p>
+	<label for="name">Name</label><br>
+    <input type="text" id="name" name="fullname" placeholder="Your name" required><br>
 	
-	<p>Email <input type="text" name="email" required><br></p>
+	<label for="email">Email</label><br>
+	<input type="text" id="email" name="emailaddress" placeholder="Your email" required><br>
 
-	<p class="antispam">Leave this empty: <input type="text" name="url" /></p>
+	<!--<input for="antispam"><input id="antispam" type="text" name="url" hidden><br>		Need to figure out how to hide this.-->
 
-	<p>Message <textarea name="message" rows="20" cols="20" required></textarea><br><br></p>
-
+	<label for="message">Message</label><br>
+	<textarea name="message" placeholder="Questions, Comments..." required></textarea><br><br></p>
 
     <input type="submit" value="Submit">
     </form>

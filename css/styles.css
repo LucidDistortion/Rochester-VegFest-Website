@@ -75,6 +75,10 @@ p.centered {
 	margin-left:11%;
 	margin-bottom:2%;
 }
+
+p.bodytext {
+	margin-left:10%;
+}
 /*List Items*/
 li {
 	float:left;
@@ -158,4 +162,48 @@ div.button:active {
     margin-left: 12.5%;
     margin-bottom: 5%;
     background-color: grey;
+}
+
+/*Contact Form*/
+#contactfield {
+	margin-left:10%;
+	margin-top:3%;
+	margin-bottom:5%;
+	width:80%;
+	height:700px;
+	background-color:#29cfbd;
+}
+
+form {
+	width:80%;
+	margin-left:5%;
+	padding-top:5%;
+	font-size:18px;
+}
+input[type=text] {
+	width:25%;
+	margin-bottom:2%;
+}
+
+input #antispam {
+	background-color:#29cfbd;
+	border-color:#29cfbd;;
+	cursor:pointer;
+	float:right;
+}
+
+textarea {
+    width: 60%;
+    height: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color:white;
+    resize:none;
+}
+
+input[type=submit] {
+	width:10%;
+	border-radius:20px;
+	background-color:white;
 }
