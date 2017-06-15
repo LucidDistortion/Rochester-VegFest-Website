@@ -39,7 +39,6 @@
 
 /*Mailing List*/
 #envelope {
-	width: 20%;
 	float:left;
 	margin-top:1%;
 	margin-left:5%;
@@ -156,7 +155,7 @@ a.anchorlink:hover {
 	}
 
 	#envelope {
-		width: 100px;
+
 	}
 
 	#arrocravs {

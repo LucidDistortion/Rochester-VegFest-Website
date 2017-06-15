@@ -1,7 +1,7 @@
 /*Headings*/
 h1 {
 	text-align:center;
-	margin-top:6%;
+	margin-top:3%;
 	font-family:"PoplarSTD","Times New Roman";
 	font-size:50px; 
 	color:black;
@@ -58,11 +58,10 @@ p {
 	}
 
 p.smallprint {
-	float:right;
+
 	font-size:16px;
-	position:relative;
-	margin-bottom:10px;
-	margin-right:40px;
+	
+	
 }
 
 p.largeprint {
