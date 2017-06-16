@@ -223,11 +223,19 @@ a.anchorlink:hover {
 	#envelope {
 		height: 50px;
 	}
+<<<<<<< HEAD
 
 	.left {
 		font-size: 14px;
 	}
 
+=======
+
+	.left {
+		font-size: 14px;
+	}
+
+>>>>>>> 9f8e558ee1ee2f0a860e613688c626e6d8db2b83
 
 	.right {
 		font-size: 14px;
