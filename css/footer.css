@@ -2,6 +2,8 @@
 
 #footer {
 	background-color:#6fba23;
+	position: absolute;
+	bottom: 0;
 }
 
 #accent {
@@ -38,26 +40,39 @@
 }
 
 /*Mailing List*/
+
+#emailForm {
+	width: 600px;
+}
+
+.subscribe {
+	padding-left: 10%;
+}
+
 #envelope {
-	float:left;
-	margin-top:1%;
-	margin-left:5%;
+	margin: 0 auto;
+	height: 60px;
+	width: auto;
 
 }
 
-p.maildetail {
-	float:left;
-	font-size:16px;
-	color:#0b3e1e;
-	margin-top:-6%;
-	margin-left:20%;
+h3.footerTitle {
+	font-size: 42px;
+	margin: 0 0;
+}
+
+p#maildetail {
+	font-size: 18px;
+	color: #0b3e1e;
+	margin: 0 0;
+	white-space: nowrap;
 }
 
 #emailaddress {
 	float:left;
 }
 
-#emailsubmit {
+#emailSubmit {
 	width:125px;
 	background-color:#0b3e1e;
 	font-family:"Futura Condensed Medium";
@@ -68,19 +83,17 @@ p.maildetail {
 }
 
 /*Social Media*/
-h3.social {
-	margin-left:8%;
-}
 
-#iconbox {
-	float:left;
+img.socialLink {
+	width: 60px;
+	height: auto;
+	margin: 0 auto;
 }
 
 /*Main Sponsors*/
 #arrocravs {
-	float:right;
-	width: 200px;
-	max-width: 200px !important;
+	margin: 0 auto;
+	height: 120px;
 }
 
 #anchor {
@@ -114,29 +127,78 @@ a.anchorlink:hover {
 	color:#50f558;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1214px) {
+
+	h3.footerTitle {
+		font-size: 38px;
+	}
+
+	p#maildetail {
+		font-size: 16px;
+	}
+
+	#envelope {
+		height: 50px;
+	}
+
+	#emailForm {
+		width: 500px;
+	}
+
 	.left {
 		float: none;
 		text-align: center;
-	}	
+	}
 
 	.right {
 		float: none;
 		text-align: center;
 	}
+	
 }
 
-@media screen and (max-width: 768px) {
-	.left {
-		float: none;
-		text-align: center;
-		font-size: 14px
+@media screen and (max-width: 964px) {
+	h3.footerTitle {
+		font-size: 34px;
+	}					
+
+	p#maildetail {
+		font-size: 14px;
+	}																								
+
+	#envelope {
+		height: 40px;
 	}
 
-	.right {
-		float: none;
-		text-align: center;
-		font-size: 14px;
+	#emailForm {
+		width: 400px;
+	}
+
+	#arrocravs {
+		height: 100px;
+	}
+	
+}
+
+@media screen and (max-width: 874px) {
+	h3.socialTitle {
+		font-size: 28px !important;
+	}
+
+@media screen and (max-width: 798px) {
+	h3.footerTitle {
+		font-size: 32px;
+	}		
+
+@media screen and (max-width: 768px) { /* The "mobile" breakpoint - footer colums stack here */
+
+	h3.footerTitle {
+		font-size: 42px;
+		margin: 0 0;
+	}
+
+	p#maildetail {
+		font-size: 18px;
 	}
 
 	#mailing-list {
@@ -154,11 +216,72 @@ a.anchorlink:hover {
 		margin-bottom: 10px;
 	}
 
-	#envelope {
+	#emailForm {
+		width: 600px;
+	}
 
+	#envelope {
+		height: 50px;
+	}
+
+	.left {
+		font-size: 14px;
+	}
+
+
+	.right {
+		font-size: 14px;
+	}
+
+	.footerBox {
+		margin-top: 8px;
+		margin-bottom: 8px;
 	}
 
 	#arrocravs {
-		width: 200px;
+		height: 150px;
+		display: block;
+		margin-left: auto;
+	}
+
+	.socialLinksDiv {
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 544px) {
+
+	h3.footerTitle {
+		font-size: 38px;
+		margin: 0 0;
+	}
+
+	p#maildetail {
+		font-size: 16px;
+	}
+
+	#emailForm {
+		width: 100%;
+	}
+
+	#envelope {
+		height: 40px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+
+	h3.footerTitle {
+		font-size: 28px;
+		margin: 0 0;
+	}
+
+	p#maildetail {
+		font-size: 12px;
+	}
+
+	#envelope {
+		height: 30px;
 	}
 }
