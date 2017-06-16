@@ -1,10 +1,9 @@
-
-/* Background */
-body {
-	background-color: #fffaeb;
-}
-
 /* Header */
+#header {
+	position: fixed;
+	top: 0;
+	z-index: 1; /* So header will overlap footer if window is very short */
+}
 #headerImg {
 	width: 100%;
 }

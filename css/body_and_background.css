@@ -2,8 +2,10 @@
 html { 
   background-color:#fffaeb;
   width:100%;
+  min-height: 100%; /* Needed to make the footer always appear at the bottom of the screen */
 }
 
 body {
 	width:100%;
+	background-color: #fffaeb;
 }
