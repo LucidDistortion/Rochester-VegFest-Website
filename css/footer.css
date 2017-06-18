@@ -50,7 +50,7 @@
 	display: inline-block; /* positions button horizontally in line with input */
 }
 
-#mce-EMAIL {
+.footer-email-field {
 	width:100%;
 	position: absolute;
 	left: 0;

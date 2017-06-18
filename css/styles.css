@@ -201,6 +201,12 @@ div.button:active {
 	background-color:#29cfbd;
 }
 
+/* Volunteer Form */
+#volunteerForm {
+	width: 50%;
+	margin: 0 auto;
+}
+
 form {
 	width:80%;
 	margin-left:5%;
