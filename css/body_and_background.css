@@ -2,10 +2,19 @@
 html { 
   background-color:#fffaeb;
   width:100%;
-  min-height: 100%; /* Needed to make the footer always appear at the bottom of the screen */
+  height: 100%; /* Needed to make the footer always appear at the bottom of the screen */
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 body {
 	width:100%;
+	min-height: 100%;
+	position: relative;
 	background-color: #fffaeb;
 }

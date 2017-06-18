@@ -1,6 +1,8 @@
 <doctype html>
 <html lang="en">
 <head>
+<!--That's so meta (meta information to ensure content will correctly adapt to screen size)-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 <title>Exhibitors &#124; RocVegFest</title>
 
@@ -72,25 +74,61 @@
 	<div class="row" id="accent"></div>
 
 	<div class="row" id="footer-content">	
-		<div id="mailing-list"><center>
-			<img id="envelope" src="images/other/maillist_graphic.png">
-				<h3>SUBSCRIBE FOR UPDATES</h3>
-					<p>Join us for latest news, reminders, and more!</p>
-						<img id="mailbutton" src="">
-		</center></div>
+		<div class="col-xs-12 col-sm-6 footerBox">
+			<div class="row">
+				<div class="col-xs-2">
+					<img id="envelope" src="images/other/maillist_graphic.png" alt="mailing list envelope graphic"> 
+				</div>
+				<div class="col-xs-10">
+					<div class="row">
+						<div class="col-xs-12">
+							<h3 class="footerTitle">SUBSCRIBE FOR UPDATES</h3>
+						</div>
+						<div class="col-xs-12">
+							<p id="mailDetail">Join us for latest news, reminders, and more!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="form-group" id="emailForm">
+						<input type="email" type="form-control" placeholder="email address" id="emailInput">
+							<input id="emailSubmit" type="submit" value="SUBSCRIBE">
+					</div>
+				</div>
+			</div>
+		</div>
 
-		<div id="social-media"><center>
-			<h3>FOLLOW US ONLINE!</h3>
-				<a id="fb" href="https://www.facebook.com/RocVegFest/?hc_ref=PAGES_TIMELINE"><img src="images/other/facebookcolor.png"></a>
-				<a id="insta" href=""><img src="images/other/instagramcolor.png"></a>
-				<a id="twitter" href="https://twitter.com/RocVegFest"><img src="images/other/twittercolor.png"></a>
-		</center></div>
+		<div class="col-xs-12 col-sm-4  footerBox">
+			<div id="row">
+				<div class="col-xs-12 socalLinksDiv">
+					<h3 class="footerTitle socialTitle">FOLLOW US ONLINE!</h3>
+				</div>
+				<div class="col-xs-12">
+					<div class="row">
+						<!--<div class="col-xs-3">-->
+							<a id="fb" href="https://www.facebook.com/RocVegFest/?hc_ref=PAGES_TIMELINE"><img class="socialLink" src="images/other/facebookcolor.png" alt="Facebook"></a>
+						<!--</div>-->
+						<!--<div class="col-xs-3">-->
+							<a id="insta" href=""><img class="socialLink" src="images/other/instagramcolor.png" alt="Instagram"></a>
+						<!--</div>-->
+						<!--<div class="col-xs-3">-->
+							<a id="twitter" href="https://twitter.com/RocVegFest"><img class="socialLink" src="images/other/twittercolor.png" alt="Twitter"></a>
+						<!--</div>-->
+					</div>
+				</div>
+			</div>
+		</div>
 
-		<div id="arroc-logo">
-			<center><img id="arrocravs" src="images/sponsors/arrocravsfooter.png"></center>
+		<div class="col-xs-12 col-sm-2  footerBox">
+			<img id="arrocravs" src="images/sponsors/arrocravsfooter.png" alt="ARroc and RAVS Logos">
 		</div>
 
 	</div>
+
+
+
 	<div class="row" id="anchor"> 
 		<div class="left">
 			<a class="sitelink anchorlink" href="sitemap.html">SITE MAP</a> 
@@ -100,11 +138,9 @@
 			<a class="anchorlink" href="https://www.facebook.com/leanne.morango">WEB DESIGN BY LEANNE MORANGO</a>
 		</div>
 		<div class="right">
-			ARRoc AND RAVS are both 501(c)3 charitable nonprofits.
+			<a class="anchorlink" href="http://arroc.org/">ARRoc</a> and <a class="anchorlink" href="https://rochesterveg.org/">RAVS</a> are both 501(c)3 charitable nonprofits.
 		</div>
 	</div>
 </div>
-
-
 </body>
 </html>
