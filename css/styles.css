@@ -60,6 +60,13 @@ p {
 	color:black;
 	}
 
+p.message {
+	font-family:"Futura Condensed Medium","Times New Roman";
+	font-size:24px;
+	color:black;
+	margin: 0 auto;
+}
+
 p.smallprint {
 
 	font-size:16px;
@@ -165,6 +172,14 @@ div.button:active {
     margin-left: 12.5%;
     margin-bottom: 5%;
     background-color: grey;
+}
+
+/* Confirmation message */
+#confirmation {
+	margin: 350px auto;
+	padding: 10px;
+	width: 80%;
+	background-color:#29cfbd;
 }
 
 /*Contact Form*/

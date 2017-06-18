@@ -2,7 +2,7 @@
 #header {
 	position: fixed;
 	top: 0;
-	z-index: 1; /* So header will overlap footer if window is very short */
+	/* z-index: 1; So header will overlap footer if window is very short */
 }
 #headerImg {
 	width: 100%;

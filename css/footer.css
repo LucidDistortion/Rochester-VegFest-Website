@@ -41,6 +41,20 @@
 
 /*Mailing List*/
 
+/* MailChimp form style */
+
+#mc_embed_signup{
+	width: 600px;
+}
+
+#mc_embed_signup .clear {
+	display: inline-block; /* positions button horizontally in line with input */
+}
+
+#mce-EMAIL {
+	width:70%;
+}
+
 #emailForm {
 	width: 600px;
 }
@@ -74,12 +88,12 @@ p#maildetail {
 
 #emailSubmit {
 	width:125px;
-	background-color:#0b3e1e;
-	font-family:"Futura Condensed Medium";
-	font-size:18px;
-	color:#fffaeb;
-	border: 2px solid #50f558;
-	border-radius:12px;
+	background-color:#0b3e1e !important;
+	font-family:"Futura Condensed Medium" !important;
+	font-size:18px !important;
+	color:#fffaeb !important;
+	border: 2px solid #50f558 !important;
+	border-radius:12px !important;
 }
 
 /*Social Media*/
