@@ -52,17 +52,6 @@
 
 .footer-email-field {
 	width:100%;
-	position: absolute;
-	left: 0;
-}
-
-#emailForm {
-	width: 600px;
-}
-
-.subscribe {
-	left: 60%;
-	padding-left: 10%;
 }
 
 #envelope {
@@ -78,8 +67,8 @@ h3.footerTitle {
 	text-align: left !important;
 }
 
-p#maildetail {
-	font-size: 18px;
+p#mailDetail {
+	font-size: 20px;
 	color: #0b3e1e;
 	margin: 0 0;
 	white-space: nowrap;
