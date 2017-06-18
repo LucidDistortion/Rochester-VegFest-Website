@@ -42,7 +42,6 @@
 /*Mailing List*/
 
 /* MailChimp form style */
-
 #mc_embed_signup{
 	width: 100%;
 }
@@ -76,6 +75,7 @@
 h3.footerTitle {
 	font-size: 42px;
 	margin: 0 0;
+	text-align: left !important;
 }
 
 p#maildetail {
