@@ -44,7 +44,7 @@
 /* MailChimp form style */
 
 #mc_embed_signup{
-	width: 600px;
+	width: 100%;
 }
 
 #mc_embed_signup .clear {
@@ -52,7 +52,8 @@
 }
 
 #mce-EMAIL {
-	width:70%;
+	width:60%;
+	left: 0;
 }
 
 #emailForm {
@@ -60,6 +61,7 @@
 }
 
 .subscribe {
+	left: 60%;
 	padding-left: 10%;
 }
 
