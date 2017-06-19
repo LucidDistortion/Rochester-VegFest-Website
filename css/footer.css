@@ -50,10 +50,12 @@
 	display: inline-block; /* positions button horizontally in line with input */
 }
 
-#mce-EMAIL {
+.footer-email-field {
 	width:100%;
-	position: absolute;
-	left: 0;
+ 	position: absolute;
+ 	left: 0;
+ 	margin-left:-6%;
+ 	margin-top:-10%;
 }
 
 #emailForm {
@@ -78,25 +80,39 @@ h3.footerTitle {
 	text-align: left !important;
 }
 
-p#maildetail {
-	font-size: 18px;
+p#mailDetail {
+	font-size: 20px;
 	color: #0b3e1e;
 	margin: 0 0;
-	white-space: nowrap;
 }
 
 #emailaddress {
 	float:left;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+.footerbutton {
+	margin-top:-20%;
+}
+
 #emailSubmit {
 	width:125px;
+=======
+input.subscribe {
+	width:125px !important;
+
+=======
+input.subscribe {
+	width:125px !important;
+
 	background-color:#0b3e1e !important;
 	font-family:"Futura Condensed Medium" !important;
 	font-size:18px !important;
 	color:#fffaeb !important;
 	border: 2px solid #50f558 !important;
 	border-radius:12px !important;
+	margin-top:-10%;
 }
 
 /*Social Media*/
