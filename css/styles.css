@@ -63,17 +63,13 @@ h6 {
 }
 
 /*Paragraphs*/
-p.standard {
-	width:80%;
-	font-family:"Futura Condensed Medium","Times New Roman";
-	font-size:24px;
+p {
+	font-family:"Futura Condensed Medium","Times New Roman"; /* Only font & color are defined here because they're the only attributes common to ALL paragraphs. */
 	color:black;
 	}
 
 p.message {
-	font-family:"Futura Condensed Medium","Times New Roman";
 	font-size:24px;
-	color:black;
 	margin: 0 auto;
 }
 
@@ -91,12 +87,14 @@ p.largeprint {
 }
 
 p.centered {
+	font-size:24px;
 	text-align:center;
 	margin-left:11%;
 	margin-bottom:2%;
 }
 
 p.bodytext {
+	font-size:24px;
 	margin-left:10%;
 }
 /*List Items*/

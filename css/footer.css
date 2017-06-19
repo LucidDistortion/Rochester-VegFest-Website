@@ -71,15 +71,14 @@ p#mailDetail {
 	font-size: 20px;
 	color: #0b3e1e;
 	margin: 0 0;
-	white-space: nowrap;
 }
 
 #emailaddress {
 	float:left;
 }
 
-#emailSubmit {
-	width:125px;
+input.subscribe {
+	width:125px !important;
 	background-color:#0b3e1e !important;
 	font-family:"Futura Condensed Medium" !important;
 	font-size:18px !important;
