@@ -90,6 +90,7 @@ p#mailDetail {
 	float:left;
 }
 
+
 .footerbutton {
 	margin-top:-20%;
 }
@@ -97,6 +98,7 @@ p#mailDetail {
 #emailSubmit {
 	width:125px;
 }
+
 
 input.subscribe {
 	width:125px !important;
