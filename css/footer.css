@@ -90,22 +90,16 @@ p#mailDetail {
 	float:left;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 .footerbutton {
 	margin-top:-20%;
 }
 
 #emailSubmit {
 	width:125px;
-=======
+}
+
 input.subscribe {
 	width:125px !important;
-
-=======
-input.subscribe {
-	width:125px !important;
-
 	background-color:#0b3e1e !important;
 	font-family:"Futura Condensed Medium" !important;
 	font-size:18px !important;
