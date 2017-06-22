@@ -11,23 +11,6 @@ h1 {
 	color:black;
 }
 
-h2 {
-	font-family:"PoplarSTD","Times New Roman";
-	font-size:42px;
-	color:black;
-	text-align:center;
-	margin-top:2%;
-}
-
-h3 { 
-	font-family:"PoplarSTD","Times New Roman";
-	font-size:46px;
-	color:#0b3e1e;
-	text-align:center;
-	margin-bottom:-1%;
-
-	 }
-
 /*Special Home Heading*/
 h4 {
 	font-family:"PoplarSTD","Times New Roman";		
@@ -40,25 +23,11 @@ h4.index {
 	text-align:center;
 }
 
-h4.faq {
-	font-size:42px;
-	margin-left:10%;
-
-}
-
 h5 {
 	font-family:"PoplarSTD","Times New Roman";
 	font-size:30px;
 	color:black;
 	text-align:center;
-	margin-left:2%;
-}
-
-h6 {
-	font-family:"PoplarSTD","Times New Roman";
-	font-size:18px;
-	color:black;
-	float:left;
 }
 
 /*Paragraphs*/
@@ -70,13 +39,11 @@ p {
 p.largeprint {
 	font-size:32px;
 	text-align:center;
-	margin-left:11%;
 }
 
 p.centered {
 	font-size:24px;
-	text-align:center;
-	margin-left:11%;
+	text-align:center; 
 	margin-bottom:2%;
 }
 
