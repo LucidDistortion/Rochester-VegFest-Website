@@ -1,0 +1,105 @@
+/* Main content div */
+#main {
+	padding-bottom: 300px;
+}
+/*Headings*/
+h1 {
+	text-align:center;
+	margin-top:3%;
+	font-family:"PoplarSTD","Times New Roman";
+	font-size:50px; 
+	color:black;
+}
+
+h2 {
+	font-family:"PoplarSTD","Times New Roman";
+	font-size:42px;
+	color:black;
+	text-align:center;
+	margin-top:2%;
+}
+
+h3 { 
+	font-family:"PoplarSTD","Times New Roman";
+	font-size:46px;
+	color:#0b3e1e;
+	text-align:center;
+	margin-bottom:-1%;
+
+	 }
+
+/*Special Home Heading*/
+h4 {
+	font-family:"PoplarSTD","Times New Roman";		
+	color:#50f558;
+	margin-top:1%;
+	}
+
+h4.index {
+	font-size:100px;
+	text-align:center;
+}
+
+h4.faq {
+	font-size:42px;
+	margin-left:10%;
+
+}
+
+h5 {
+	font-family:"PoplarSTD","Times New Roman";
+	font-size:30px;
+	color:black;
+	text-align:center;
+	margin-left:2%;
+}
+
+h6 {
+	font-family:"PoplarSTD","Times New Roman";
+	font-size:18px;
+	color:black;
+	float:left;
+}
+
+/*Paragraphs*/
+p {
+	font-family:"Futura Condensed Medium","Times New Roman"; /* Only font & color are defined here because they're the only attributes common to ALL paragraphs. */
+	color:black;
+	}
+
+p.largeprint {
+	font-size:32px;
+	text-align:center;
+	margin-left:11%;
+}
+
+p.centered {
+	font-size:24px;
+	text-align:center;
+	margin-left:11%;
+	margin-bottom:2%;
+}
+
+#wthlogo {
+	width:53%;
+	border:30px solid black;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#wth {
+	width:100%;
+}
+
+@media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
+	#main {
+		padding-bottom: 400px;
+	}
+}
+
+@media screen and (max-width: 768px) { /* The "mobile" breakpoint - footer colums stack here */
+	#main {
+		padding-bottom: 600px;
+	}
+}

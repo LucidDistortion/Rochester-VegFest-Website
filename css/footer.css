@@ -15,6 +15,47 @@
 	padding: 10px;
 }
 
+/*Basic Styles*/
+h3 { 
+	font-family:"PoplarSTD","Times New Roman";
+	font-size:46px;
+	color:#0b3e1e;
+	text-align:center;
+	margin-bottom:-1%;
+
+	 }
+
+/*List Items*/
+li {
+	float:left;
+	margin-left:4.5%;
+	list-style-type:none;
+}
+
+/*Links*/
+a {
+	display:inline-block;
+}
+
+a:link {
+	text-decoration:none;
+	list-style-type:none;
+}
+
+a:visited {
+	color:#fffaeb;
+
+	}
+	
+a.navLink:hover {
+	color:#0b3e1e;
+	
+}
+
+a.anchorlink:link {
+	color:#fffaeb;
+}
+
 /*Contact Form*/
 
 #mailing-list {
