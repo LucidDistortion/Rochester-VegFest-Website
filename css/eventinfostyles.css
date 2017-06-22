@@ -18,9 +18,19 @@ h2 {
 	margin-top:2%;
 }
 
+h2.col1 {
+	float:left !important;
+	margin-left:25%;
+}
+
+h2.col2 {
+	float:right !important;
+	margin-right:25%;
+}
+
 h3 { 
 	font-family:"PoplarSTD","Times New Roman";
-	font-size:46px;
+	font-size:56px;
 	color:#0b3e1e;
 	text-align:center;
 	margin-bottom:-1%;
@@ -43,9 +53,42 @@ p {
 	color:black;
 	}
 
-	p.bodytext {
+p.bodytext {
+	width:80%;
 	font-size:24px;
 	margin-left:10%;
+}
+
+
+p.fdbodytext {
+	width:90%;
+	font-size:24px;
+	margin-left:5%;
+}
+
+p.col2bodytext {
+	font-size:24px;
+}
+
+#sunny {
+	width:100%;
+	
+}
+
+#sun {
+	width:auto;
+	height:auto;
+	position:absolute;
+	margin-left:10%;
+	margin-top:-2%;
+}
+
+#fdcallout {
+	width:90%;
+	height:300px;
+	background-color:#29cfbd;
+	margin-left:5%;
+	border-radius:12px;
 }
 
 /* Embedded Google Maps */
@@ -53,9 +96,22 @@ p {
     width: 40%;
     min-width:400px;
     height: 400px;
-    margin:0 auto;
+    margin:2% 10%;
     margin-bottom: 5%;
     }
+
+div.parkingspace {
+	padding-right:3%;
+}
+
+  #faqfield {
+  	width:80%;
+  	height:700px;
+  	margin:5% auto;
+  	padding-top:2%;
+  	background-color:#fec228;
+  	border-radius:12px;
+  }
 
 @media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
 	#main {
