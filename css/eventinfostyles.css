@@ -18,16 +18,6 @@ h2 {
 	margin-top:2%;
 }
 
-h2.col1 {
-	float:left !important;
-	margin-left:25%;
-}
-
-h2.col2 {
-	float:right !important;
-	margin-right:25%;
-}
-
 h3 { 
 	font-family:"PoplarSTD","Times New Roman";
 	font-size:56px;
@@ -38,13 +28,18 @@ h3 {
 	 }
 h4 {
 	font-family:"PoplarSTD","Times New Roman";		
-	color:#50f558;
 	margin-top:1%;
 	}
 
 h4.faq {
 	font-size:42px;
 	margin-left:10%;
+	color:#6fba23;
+}
+
+span#em {
+	font-family:"Antonio","Times New Roman";
+	font-size:24px;
 }
 
 	 /*Paragraphs*/
@@ -61,18 +56,13 @@ p.bodytext {
 
 
 p.fdbodytext {
-	width:90%;
+	width:80%;
 	font-size:24px;
-	margin-left:5%;
+	margin-left:10%;
+	margin-bottom:2%;
 }
-
-p.col2bodytext {
-	font-size:24px;
-}
-
 #sunny {
-	width:100%;
-	
+
 }
 
 #sun {
@@ -84,43 +74,133 @@ p.col2bodytext {
 }
 
 #fdcallout {
-	width:90%;
-	height:300px;
-	background-color:#29cfbd;
-	margin-left:5%;
+	width:70%;
+	height:430px;
+	background-color:#50f558;
+	margin-left:15%;
 	border-radius:12px;
+	padding-top:1%;
+	margin-top:2%;
+	margin-bottom:2%;
 }
 
 /* Embedded Google Maps */
 #map {
-    width: 40%;
+    width:80%;
     min-width:400px;
     height: 400px;
-    margin:2% 10%;
-    margin-bottom: 5%;
+    margin-top:2%;
+    margin-left:10%; 
     }
 
+ div.directions {
+ 	
+ }
+
 div.parkingspace {
-	padding-right:3%;
+	width:50%;
 }
 
   #faqfield {
   	width:80%;
   	height:700px;
-  	margin:5% auto;
-  	padding-top:2%;
+  	margin:3% auto;
+  	padding-top:1%;
   	background-color:#fec228;
   	border-radius:12px;
   }
 
+
+
+
+ @media screen and (max-width: 1650px) {
+ 	h3 {
+ 		font-size:48px;
+ 	}
+ 	#sun {
+		width:10%;
+		height:auto;
+		position:absolute;
+	margin-left:13%;
+	margin-top:-2%;
+	}
+ }
+
+  @media screen and (max-width: 1500px) {
+  	 	h3 {
+ 		font-size:48px;
+ 	}
+ 	#sun {
+		width:9%;
+		height:auto;
+		position:absolute;
+	margin-left:13%;
+	margin-top:-2%;
+	}
+  }
+
 @media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
+	  	 	h3 {
+ 		font-size:42px;
+ 	}
 	#main {
 		padding-bottom: 400px;
 	}
+	#sun {
+		width:8%;
+		height:auto;
+		position:absolute;
+		margin-left:5%;
+		margin-top:-1%;
+	}
+
+@media screen and (max-width: 900px) { 
+	  	 	h3 {
+ 		font-size:34px;
+ 	}
+	#main {
+		padding-bottom: 400px;
+	}
+	#sun {
+		width:7%;
+		height:auto;
+		position:absolute;
+		margin-left:9%;
+		margin-top:1%;
+	}
+
 }
 
+@media screen and (max-width: 800px) { 
+	  	 	h3 {
+ 		font-size:34px;
+ 	}
+	#main {
+		padding-bottom: 400px;
+	}
+	#sun {
+		width:5%;
+		height:auto;
+		position:absolute;
+		margin-left:8%;
+		margin-top:1%;
+	}
+
+}
+
+
 @media screen and (max-width: 768px) { /* The "mobile" breakpoint - footer colums stack here */
+  	 	h3 {
+ 		font-size:28px;
+ 	}
 	#main {
 		padding-bottom: 600px;
+	}
+		#sun {
+		width:0%;
+		height:auto;
+		position:absolute;
+		margin-left:6%;
+		margin-top:3%;
 	}
 }
