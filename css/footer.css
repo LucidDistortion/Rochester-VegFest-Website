@@ -1,6 +1,8 @@
 /*Footer Content*/
 
 #footer {
+	width:100%;
+	height:;
 	background-color:#6fba23;
 	position: absolute;
 	bottom: 0;
@@ -12,8 +14,11 @@
 }
 
 #footer-content {
-	padding: 10px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left:3%;
 }
+
 
 /*Basic Styles*/
 h3 { 
@@ -56,35 +61,13 @@ a.anchorlink:link {
 	color:#fffaeb;
 }
 
-/*Contact Form*/
-
-#mailing-list {
-	float: left;
-	width: 33.3%;
-	background-color:red;
-}
-
-#social-media {
-	float: left;
-	width: 33.3%;
-	background-color: green;
-}
-
-#arroc-logo {
-	float: left;
-	width: 33.3%;
-	background-color:yellow;
-}
-
-#formfield {
-	background-color:#29cfbd; 
-}
-
 /*Mailing List*/
 
 /* MailChimp form style */
 #mc_embed_signup{
-	width: 100%;
+	width: 80%;
+
+
 }
 
 #mc_embed_signup .clear {
@@ -92,11 +75,11 @@ a.anchorlink:link {
 }
 
 .footer-email-field {
-	width:100%;
+	width:95%;
  	position: absolute;
  	left: 0;
- 	margin-left:-6%;
- 	margin-top:-10%;
+ 	margin-left:4%;
+ 	margin-top:1%;
 }
 
 #emailForm {
@@ -104,7 +87,6 @@ a.anchorlink:link {
 }
 
 .subscribe {
-	left: 60%;
 	padding-left: 10%;
 }
 
@@ -122,25 +104,11 @@ h3.footerTitle {
 }
 
 p#mailDetail {
-	font-size: 20px;
+	font-family:"Futura Condensed Medium", "Times New Roman";
+	font-size: 18px;
 	color: #0b3e1e;
 	margin: 0 0;
 }
-
-#emailaddress {
-	float:left;
-}
-
-
-.footerbutton {
-	margin-top:-20%;
-}
-
-#emailSubmit {
-	width:125px;
-}
-
-
 
 input.subscribe {
 	width:125px !important;
@@ -150,7 +118,8 @@ input.subscribe {
 	color:#fffaeb !important;
 	border: 2px solid #50f558 !important;
 	border-radius:12px !important;
-	margin-top:-10%;
+	
+
 }
 
 /*Social Media*/
@@ -209,6 +178,14 @@ div.anchorLinks-right {
 a.anchorlink:hover {
 	color:#50f558;
 }
+
+
+
+
+
+
+
+/*Responsiveness*/
 
 @media screen and (max-width: 1214px) {
 
