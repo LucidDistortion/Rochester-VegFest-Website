@@ -1,8 +1,7 @@
-/*Footer Content*/
+/*Footer Content Basics & Boxes*/
 
 #footer {
 	width:100%;
-	height:;
 	background-color:#6fba23;
 	position: absolute;
 	bottom: 0;
@@ -14,21 +13,24 @@
 }
 
 #footer-content {
-	padding-top: 40px;
+	padding-top: 30px;
 	padding-bottom: 40px;
 	padding-left:3%;
 }
 
 
-/*Basic Styles*/
+/*Basic Text Styles*/
 h3 { 
 	font-family:"PoplarSTD","Times New Roman";
 	font-size:46px;
 	color:#0b3e1e;
 	text-align:center;
 	margin-bottom:-1%;
-
 	 }
+
+p {
+	font-family:"Futura Condensed Medium", "Times New Roman";
+}
 
 /*List Items*/
 li {
@@ -61,9 +63,9 @@ a.anchorlink:link {
 	color:#fffaeb;
 }
 
-/*Mailing List*/
 
-/* MailChimp form style */
+
+/* MailChimp Mailing List Form*/
 #mc_embed_signup{
 	width: 80%;
 
@@ -104,7 +106,6 @@ h3.footerTitle {
 }
 
 p#mailDetail {
-	font-family:"Futura Condensed Medium", "Times New Roman";
 	font-size: 18px;
 	color: #0b3e1e;
 	margin: 0 0;
@@ -146,6 +147,10 @@ margin-left:6%;
 #arrocravs {
 	margin: 0 auto;
 	height: 120px;
+}
+
+#arravs_flat {
+	display:none;
 }
 
 #anchor {
@@ -193,8 +198,8 @@ a.anchorlink:hover {
 		font-size: 38px;
 	}
 
-	p#maildetail {
-		font-size: 16px;
+	p#mailDetail {
+		font-size: 16px !important;
 	}
 
 	#envelope {
@@ -203,6 +208,11 @@ a.anchorlink:hover {
 
 	#emailForm {
 		width: 500px;
+	}
+
+		img.socialLink {
+		width:90%;
+		margin-bottom:-20%;
 	}
 
 	.left {
@@ -222,8 +232,8 @@ a.anchorlink:hover {
 		font-size: 34px;
 	}					
 
-	p#maildetail {
-		font-size: 14px;
+	p#mailDetail {
+		font-size: 14px !important;
 	}																								
 
 	#envelope {
@@ -232,6 +242,11 @@ a.anchorlink:hover {
 
 	#emailForm {
 		width: 400px;
+	}
+
+	img.socialLink {
+		width:80%;
+		margin-bottom:-20%;
 	}
 
 	#arrocravs {
@@ -251,13 +266,23 @@ a.anchorlink:hover {
 	}		
 
 @media screen and (max-width: 768px) { /* The "mobile" breakpoint - footer colums stack here */
+	#footer-content {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left:3%;
+}
+
+	#mailingfield {
+		margin-left:13%;
+		padding-bottom:2%;
+	}
 
 	h3.footerTitle {
 		font-size: 42px;
 		margin: 0 0;
 	}
 
-	p#maildetail {
+	p#mailDetail {
 		font-size: 18px;
 	}
 
@@ -268,7 +293,7 @@ a.anchorlink:hover {
 
 	#social-media {
 		width: 50%;
-		margin-bottom: 10px;
+		margin-bottom:5%;
 	}
 
 	#arroc-logo {
@@ -291,32 +316,54 @@ a.anchorlink:hover {
 	.right {
 		font-size: 14px;
 	}
-
-	.footerBox {
-		margin-top: 8px;
-		margin-bottom: 8px;
+	.socialmedia {
+		margin-left:-25%;
+	}
+	#socialbox {
+		margin-left:17%;
+		margin-bottom:2%;
 	}
 
-	#arrocravs {
-		height: 150px;
-		display: block;
-		margin-left: auto;
+	h3.socialTitle {
+		font-size: 28px !important;
+		margin-left:25%;
 	}
 
-	.socialLinksDiv {
-		text-align: center;
+	img.socialLink {
+		width:80%;
 	}
+
+		#arrocravs {
+			display:none
+		}
+
+		#arravs_flat {
+			display:inline;
+			float:right;
+			height:60px;
+			margin-top:-10%
+		}
 
 }
 
 @media screen and (max-width: 544px) {
+
+	#footer-content {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left:3%;
+}
+
+	#mailingfield {
+		margin-left:0;
+	}
 
 	h3.footerTitle {
 		font-size: 38px;
 		margin: 0 0;
 	}
 
-	p#maildetail {
+	p#mailDetail {
 		font-size: 16px;
 	}
 
@@ -327,20 +374,92 @@ a.anchorlink:hover {
 	#envelope {
 		height: 40px;
 	}
+
+	.socialmedia {
+		margin-left:-25%;
+	}
+	#socialbox {
+		margin-left:17%;
+	}
+
+	h3.socialTitle {
+		font-size: 28px !important;
+		margin-left:25%;
+	}
+
+	img.socialLink {
+		width:80%;
+	}
+
+		#arrocravs {
+			display:none
+		}
+
+		#arravs_flat {
+			display:inline;
+			float:right;
+			height:60px;
+			margin-top:-14%;
+		}
 }
 
 @media screen and (max-width: 450px) {
 
+#footer-content {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left:3%;
+}
+
 	h3.footerTitle {
-		font-size: 28px;
+		font-size: 34px;
 		margin: 0 0;
 	}
 
-	p#maildetail {
-		font-size: 12px;
+	p#mailDetail {
+		font-size: 16px;
 	}
 
 	#envelope {
-		height: 30px;
+		height: 35px;
 	}
+
+	input#mce-EMAIL   {
+		width:120%;
+		margin-left:10%;
+	
+	}
+	input.subscribe {
+		margin-left:40%;
+	}
+
+	.socialmedia {
+		margin-left:-25%;
+	}
+	#socialbox {
+		margin-left:17%;
+	}
+
+	h3.socialTitle {
+		font-size: 28px !important;
+		margin-left:25%;
+		padding-top:10px;
+	}
+
+	img.socialLink {
+		width:80%;
+		margin-bottom:-20%;
+	}
+
+		#arrocravs {
+			display:none
+		}
+
+		#arravs_flat {
+			display:inline;
+			float:right;
+			height:70px;
+			margin-top:-16%;
+			padding-top:10px;
+		}
 }

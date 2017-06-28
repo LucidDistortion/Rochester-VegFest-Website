@@ -1,6 +1,6 @@
 /* Main content div */
 #main {
-	padding-bottom: 300px;
+	padding-bottom: 600px;
 }
 /*Headings*/
 h1 {
@@ -29,6 +29,102 @@ p.bodytext {
 	font-size:24px;
 	margin-left:10%;
 }
+
+p.detailtext {
+	width:100%;
+	color:black;
+	font-size:20px;
+	text-align:center;
+}
+
+/* MailChimp form style */
+#volunteerbox {
+width:50%;
+height:300px;
+background-color:#fa8789;
+margin-left:25%;
+margin-right:25%; 
+border-radius:12px;
+
+}
+
+.peacegraphic {
+margin-left:auto;
+margin-right:auto;
+}
+
+#peace {
+	width:150px;
+	margin-left:200%;
+	margin-top:20%;
+}
+
+#mc_embed_signup{
+	width: 83%;
+	float:right;
+
+}
+
+#mc_embed_signup .clear {
+	display: inline-block; /* positions button horizontally in line with input */
+}
+label {
+	color:black;
+	margin-right:3%;
+}
+input [type=email] {
+width:120%;
+}
+
+input [type=text] {
+
+}
+
+input.submitbutton {
+	width:125px !important;
+	background-color:#fec227 !important;
+	font-family:"Futura Condensed Medium" !important;
+	font-size:18px !important;
+	color:#fffaeb !important;
+	border: 2px solid #29cfbd !important;
+	border-radius:12px !important;
+
+}
+.footer-email-field {
+	width:95%;
+ 	position: absolute;
+ 	left: 0;
+ 	margin-left:4%;
+ 	margin-top:1%;
+}
+
+#emailForm {
+	width: 600px;
+}
+
+.submitbutton {
+	margin-left:70%;
+}
+
+
+h2.vollisttitle {
+	font-size: 42px;
+	margin-left:20%;
+	color:#fec227;
+	text-align: left !important;
+	margin-top:10%;	
+}
+
+p.volmailDetail {
+	font-family:"Futura Condensed Medium", "Times New Roman";
+	font-size: 20px;
+	color:#fec227;
+	text-align:center;
+	margin-right:8%;
+	margin-top:-2%;
+}
+
+
 
 @media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
 	#main {
