@@ -35,16 +35,18 @@ p.detailtext {
 	color:black;
 	font-size:20px;
 	text-align:center;
+	margin-top:2%;
 }
 
 /* MailChimp form style */
 #volunteerbox {
 width:50%;
-height:300px;
+height:auto;
 background-color:#fa8789;
 margin-left:25%;
 margin-right:25%; 
 border-radius:12px;
+padding-bottom:1%;
 
 }
 
@@ -128,7 +130,7 @@ p.volmailDetail {
 
 @media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
 	#main {
-		padding-bottom: 400px;
+		padding-bottom: 600px;
 	}
 }
 
