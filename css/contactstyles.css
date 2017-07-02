@@ -78,7 +78,7 @@ input[type=submit] {
 	}
 
 	p.bodytext {
-		font-size::20px !important;
+		font-size:20px !important;
 	}
 
 	label {
@@ -97,7 +97,7 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) { /* The "mobile" breakpoint - footer colums stack here */
 	#main {
-		padding-bottom: 600px;
+		padding-bottom: 280px;
 	}
 		h1 {
 		font-size: 30px !important;
