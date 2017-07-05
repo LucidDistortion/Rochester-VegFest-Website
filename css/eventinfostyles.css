@@ -85,6 +85,10 @@ p.fdbodytext {
 }
 
 /* Embedded Google Maps */
+iframe {
+	width:100%;
+	height:100%;
+}
 #map {
     width:80%;
     min-width:400px;

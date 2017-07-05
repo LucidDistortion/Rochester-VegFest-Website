@@ -20,7 +20,9 @@ p {
 
 p.bodytext {
 	font-size:24px;
+	width:80%;
 	margin-left:10%;
+	margin-right:10%;
 }
 
 /*Contact Form*/

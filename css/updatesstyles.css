@@ -1,4 +1,14 @@
 /* Main content div */
 #main {
-	padding-bottom: 300px;
+	padding-bottom:100px;
 }
+
+/*Headings*/
+h1 {
+	text-align:center;
+	margin-top:3%;
+	font-family:"PoplarSTD","Times New Roman";
+	font-size:50px; 
+	color:black
+}
+

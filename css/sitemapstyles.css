@@ -10,20 +10,12 @@ h1 {
 	color:black;
 }
 
-/*List Items*/
-li {	
-	float:left;
-	margin-left:4.5%;
-	list-style-type:none;
-}
-
 /*Links*/
 a.sitemaplink {	
 	font-family:"Futura", "Times New Roman";
 	font-size:20px;
-	display:inline-block;
 	padding:1%;
-	margin-left:1%;
+	margin-left:3%;
 	}
 
 a.sitemaplink:link {
