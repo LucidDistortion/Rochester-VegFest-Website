@@ -36,12 +36,30 @@ p.smallprint {
 p.captions {
 	font-family:"PoplarSTD","Times New Roman";
 	font-size:22px;
-	width:100%;
-	color:#0b3e1e;;
+	position: absolute;
+	width:80%;
+	padding:3%;
+	text-align:center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color:#0b3e1e;
+	background-color:#6fba23;
 }
 
 div.speakerCaption {
-	text-align: center;
+	 position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+
+}
 }
 
 /*List Items*/
@@ -87,6 +105,11 @@ a.anchorlink:link {
 	width: 100%;
 	margin: 50px auto;
 	display:block;
+}
+
+
+.container:hover .speakerCaption {
+	opacity:1;
 }
 
 @media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
