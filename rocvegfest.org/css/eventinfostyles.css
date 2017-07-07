@@ -1,0 +1,210 @@
+#main {
+	padding-bottom:300px;
+}
+/*Headings*/
+h1 {
+	text-align:center;
+	margin-top:3%;
+	font-family:"PoplarSTD","Times New Roman";
+	font-size:50px; 
+	color:black;
+}
+
+h2 {
+	font-family:"PoplarSTD","Times New Roman";
+	font-size:42px;
+	color:black;
+	text-align:center;
+	margin-top:2%;
+}
+
+h3 { 
+	font-family:"PoplarSTD","Times New Roman";
+	font-size:56px;
+	color:#0b3e1e;
+	text-align:center;
+	margin-bottom:-1%;
+
+	 }
+h4 {
+	font-family:"PoplarSTD","Times New Roman";		
+	margin-top:1%;
+	}
+
+h4.faq {
+	font-size:42px;
+	margin-left:10%;
+	color:#6fba23;
+}
+
+span#em {
+	font-family:"Antonio","Times New Roman";
+	font-size:24px;
+}
+
+	 /*Paragraphs*/
+p {
+	font-family:"Futura Condensed Medium","Times New Roman"; /* Only font & color are defined here because they're the only attributes common to ALL paragraphs. */
+	color:black;
+	}
+
+p.bodytext {
+	width:80%;
+	font-size:24px;
+	margin-left:10%;
+}
+
+
+p.fdbodytext {
+	width:80%;
+	font-size:24px;
+	margin-left:10%;
+	margin-bottom:2%;
+}
+#sunny {
+
+}
+
+#sun {
+	width:auto;
+	height:auto;
+	position:absolute;
+	margin-left:10%;
+	margin-top:-2%;
+}
+
+#fdcallout {
+	width:70%;
+	height:430px;
+	background-color:#50f558;
+	margin-left:15%;
+	border-radius:12px;
+	padding-top:1%;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+
+/* Embedded Google Maps */
+iframe {
+	width:100%;
+	height:100%;
+}
+#map {
+    width:80%;
+    min-width:400px;
+    height: 400px;
+    margin-top:2%;
+    margin-left:10%; 
+    }
+
+ div.directions {
+ 	
+ }
+
+div.parkingspace {
+	width:50%;
+}
+
+  #faqfield {
+  	width:80%;
+  	height:700px;
+  	margin:3% auto;
+  	padding-top:1%;
+  	background-color:#fec228;
+  	border-radius:12px;
+  }
+
+
+
+
+ @media screen and (max-width: 1650px) {
+ 	h3 {
+ 		font-size:48px;
+ 	}
+ 	#sun {
+		width:10%;
+		height:auto;
+		position:absolute;
+	margin-left:13%;
+	margin-top:-2%;
+	}
+ }
+
+  @media screen and (max-width: 1500px) {
+  	 	h3 {
+ 		font-size:48px;
+ 	}
+ 	#sun {
+		width:9%;
+		height:auto;
+		position:absolute;
+	margin-left:13%;
+	margin-top:-2%;
+	}
+  }
+
+@media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
+	  	 	h3 {
+ 		font-size:42px;
+ 	}
+	#main {
+		padding-bottom: 400px;
+	}
+	#sun {
+		width:8%;
+		height:auto;
+		position:absolute;
+		margin-left:5%;
+		margin-top:-1%;
+	}
+
+@media screen and (max-width: 900px) { 
+	  	 	h3 {
+ 		font-size:34px;
+ 	}
+	#main {
+		padding-bottom: 400px;
+	}
+	#sun {
+		width:7%;
+		height:auto;
+		position:absolute;
+		margin-left:9%;
+		margin-top:1%;
+	}
+
+}
+
+@media screen and (max-width: 800px) { 
+	  	 	h3 {
+ 		font-size:34px;
+ 	}
+	#main {
+		padding-bottom: 400px;
+	}
+	#sun {
+		width:5%;
+		height:auto;
+		position:absolute;
+		margin-left:9%;
+		margin-top:1%;
+	}
+
+}
+
+
+@media screen and (max-width: 768px) { /* The "mobile" breakpoint - footer colums stack here */
+  	 	h3 {
+ 		font-size:28px;
+ 	}
+	#main {
+		padding-bottom: 600px;
+	}
+		#sun {
+		width:0%;
+		height:auto;
+		position:absolute;
+		margin-left:6%;
+		margin-top:3%;
+	}
+}

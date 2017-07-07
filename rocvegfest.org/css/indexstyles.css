@@ -1,0 +1,212 @@
+/* Main content div */
+#main {
+	padding-bottom: 300px;
+}
+/*Headings*/
+h1 {
+	text-align:center;
+	margin-top:3%;
+	font-family:"PoplarSTD","Times New Roman";
+	font-size:50px; 
+	color:black;
+}
+
+/*Special Home Heading*/
+h4 {
+	font-family:"PoplarSTD","Times New Roman";		
+	color:#50f558;
+	margin-top:1%;
+	}
+
+h4.index {
+	font-size:100px;
+	text-align:center;
+	margin-bottom:-1%;
+}
+
+h5 {
+	font-family:"PoplarSTD","Times New Roman";
+	font-size:30px;
+	color:black;
+	text-align:center;
+}
+
+/*Paragraphs*/
+p {
+	font-family:"Futura Condensed Medium","Times New Roman"; /* Only font & color are defined here because they're the only attributes common to ALL paragraphs. */
+	color:black;
+	}
+
+p.largeprint {
+	font-size:26px;
+	text-align:center;
+}
+
+p.centered {
+	font-size:18px;
+	text-align:center; 
+	margin-bottom:2%;
+}
+
+#speakerscallout {
+	width:94%;
+	margin-top:-3%;
+	margin-left:3%;
+	height:auto;
+	background-color:#29cfbd; 
+	padding-top:1%;	
+	padding-bottom:1px;
+}
+
+#eventdetails {
+	width:100%;
+}
+
+#left {
+	width:30%;
+	height:300px;
+	float:left;
+	
+	margin-top:-23%;
+	margin-left:2%;
+
+	}
+
+#right {
+	width:30%;
+	height:300px;
+	float:right;
+	
+	margin-top:-23%;
+	margin-right:2%;
+
+	}
+
+#image1 {
+	width:44%;
+	float:left;
+	margin-left:5%;
+	margin-top:5%;
+}
+
+#image2 {
+	width:44%;
+	float:right;
+	margin-right:5%;
+	margin-top:5%;
+}
+
+#image3 {
+	width:44%;
+	float:left;
+	margin-left:5%;
+	margin-top:5%;
+}
+
+#image4 {
+	width:44%;
+	float:right;
+	margin-right:5%;
+	margin-top:5%;
+}
+
+#wthlogo {
+	width:50%;
+	height:auto;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#wth {
+	width:100%;
+	border:30px solid black;
+}
+
+@media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
+	#main {
+		padding-bottom: 400px;
+	}
+
+#wth {
+	width:100%;
+	border:20px solid black;
+	margin-top:-1%;
+}
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) { /* The "mobile" breakpoint - footer colums stack here */
+	#main {
+		padding-bottom: 300px;
+	}
+
+	h1 {
+		font-size:30px;
+	}
+
+	h4.index {
+	font-size:50px;
+}
+
+p.largeprint {
+	font-size:18px;
+}
+
+p.centered {
+	font-size:12px;
+}
+
+
+#speakerscallout {
+	width:40%;
+	margin-top:-3%;
+	margin-left:30%;
+	height: auto;
+	background-color:#29cfbd; 
+	padding-top:2%;	
+	padding-bottom:2%;	
+
+}
+
+#image1 {
+width:75px;
+margin-top:-40%;
+}
+
+#image2 {
+	width:100px;
+	float:left;
+	margin-left:5%;
+
+}
+
+#image3 {
+	width:100px;
+	margin-top:-40%;
+	margin-right:5%;
+	float:right;
+}
+
+#image4 {
+	width:100px;
+}
+	h5 {
+	font-size:20px;
+}
+
+#wth {
+	width:100%;
+	border:10px solid black;
+	margin-top:-6%;
+}
+
+}
+
