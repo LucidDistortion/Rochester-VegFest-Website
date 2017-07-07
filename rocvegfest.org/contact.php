@@ -7,7 +7,7 @@
 <title>Contact &#124; RocVegFest</title>
 
 <!--Contact form style and script-->
-<link rel="stylesheet" type="text/css" href="gbcf-v3/files/themes/default.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="gbcf-v3/files/themes/custom.css" media="screen" />
 <!--[if IE]><script type="text/javascript" src="gbcf-v3/files/focus.js"></script><![endif]-->
 <!--Reset CSS-->
 <link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -29,8 +29,6 @@
 </head>
 
 <body>
-<!--Contact form PHP-->
-<?php include_once("gbcf-v3/form.php"); ?>
 
 <div class="container-fluid">
 	<div class="row">
@@ -62,7 +60,7 @@
 <div id="main">
 
 <h1>CONTACT US!</h1>
-<p class="bodytext"><!--You can use the form below to send us an email.-->   You can contact us at info[at]RocVegfest.org, join our mailing list, visit us on Facebook, leave a message at ARRoc’s voicemail (585) 445-3599, or write to us at:</p><br>
+<p class="bodytext">You can use the form below to send us an email, join our mailing list, visit us on Facebook, leave a message at ARRoc’s voicemail (585) 445-3599, or write to us at:</p><br>
 <p class="bodytext">Rochester VegFest<br>
 P.O. Box 20185<br>
 Rochester, NY 14602</p>
@@ -87,6 +85,8 @@ Rochester, NY 14602</p>
 
 </div>-->
 
+<!--Contact form PHP-->
+<?php include_once("gbcf-v3/form.php"); ?>
 </div>
 
 <div class="container-fluid" id="footer">
