@@ -30,6 +30,7 @@ p.bodytext {
 	margin-left:10%;
 }
 
+
 /*Links*/
 a {
 	display:inline-block;
@@ -80,6 +81,9 @@ div.button:active {
 	background-color: #feb547;
     border: 5px inset #2acebe;;
 }
+
+
+
 
 @media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
 	#main {
