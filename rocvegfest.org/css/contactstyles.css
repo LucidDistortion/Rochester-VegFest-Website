@@ -1,6 +1,6 @@
 /* Main content div */
 #main {
-	padding-bottom: 200px;
+	padding-bottom: 300px;
 }
 
 /*Headings*/
@@ -25,17 +25,37 @@ p.bodytext {
 	margin-right:10%;
 }
 
-/*Contact Form*/
-#contactfield {
-	margin-left:10%;
-	margin-top:3%;
-	margin-bottom:5%;
-	width:80%;
-	height:600px;
-	background-color:#29cfbd;
+a.textlink {
+	color: black;
+	display:inline;
 }
 
-textarea {
+a.textlink:link {
+	text-decoration:none;
+	color: black;
+}
+
+a.textlink:hover {
+	color: #50f558;
+}
+
+/*Contact Form*/
+#contactfield {
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:3%;
+  width:80%;
+  height:100%;
+  background-color:#29cfbd;
+  padding-top:3%;
+  padding-bottom:3%;
+}
+
+form {
+	width:80%;
+	height:auto;
+}
+/*textarea {
     width: 60%;
     height: 300px;
     box-sizing: border-box;
@@ -59,20 +79,20 @@ input[type=text] {
 	width:25%;
 }
 
-input[type=submit] {
+/*input[type=submit] {
 	width:8%;
 	border-radius:12px;
 	background-color:lightgray;
 }
-
-@media screen and (max-width: 1614px) {
+*/
+/*@media screen and (max-width: 1614px) {
 input[type=submit] {
 	width:8%;
 }
 }
 
 @media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
-	#main {
+/*	#main {
 		padding-bottom: 300px;
 	}
 	h1 {
@@ -98,7 +118,7 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 768px) { /* The "mobile" breakpoint - footer colums stack here */
-	#main {
+	/*#main {
 		padding-bottom: 280px;
 	}
 		h1 {
@@ -120,7 +140,41 @@ textarea {
 input[type=submit] {
 	width:20%;
 }
+}*/
+
+@media screen and (max-width: 1614px) {
+
 }
+
+@media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
+
+#main {
+		padding-bottom: 400px;
+	}
+	h1 {
+		font-size:30px !important;
+	}
+
+	p.bodytext {
+		font-size:20px !important;
+	}
+
+
+}
+
+@media screen and (max-width: 874px) { 
+
+}
+
+@media screen and (max-width: 544px) {
+
+}
+
+@media screen and (max-width: 450px) {
+
+
+}
+
 
 
 

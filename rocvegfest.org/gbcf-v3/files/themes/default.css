@@ -7,10 +7,10 @@
 /* === form div and elements ======================================= */
 
 #form-div { 
-  font-family : verdana, helvetica, palatino sans, tahoma, arial, sans-serif;
+  font-family : verdana, helvetica, "palatino sans", tahoma, arial, sans-serif;
   width : 70%;
   margin : auto;
-  color : #555;
+  color : #000;
   line-height : 1.7em;
 }
 
@@ -54,7 +54,7 @@
   color : #fff;
   /* color : #000; (lite colors option - uncomment to use) */
   padding : 1px 4px; 
-  border : 1px solid #000; 
+  border : 1px solid #666; 
   background-color : #669900;
   /* background-color : #d6e3ba; (lite colors option - uncomment to use) */
   margin : 10px 3px;
@@ -91,7 +91,10 @@
 
 /* === structural form elements ==================================== */
 
-form#gbcf-form { }
+form#gbcf-form { 
+  width:80%;
+  height:auto;
+}
 
 fieldset.main-set,
 fieldset.req-set,
@@ -110,13 +113,13 @@ fieldset.opt-set {
 #form-div legend span { }
 
 legend.main-legend { 
-  color : #777;
+  color : #000;
   font-size : 110%;
 }
 
 legend.req-legend,
 legend.opt-legend { 
-  color : #777;
+  color : #000;
 }
 
 legend.main-legend span { }
@@ -150,7 +153,7 @@ label.opt-label.main-label {
 
 label.opt-label.main-label span {
   font-weight : normal;
-  color : #666;
+  color : #000;
 }
 
 label.opt-label.main-label span.req, label span.req  {
@@ -159,7 +162,7 @@ label.opt-label.main-label span.req, label span.req  {
 }
 
 label.req-label.explain {
-  color : #666;
+  color : #000;
   font-size : .8em;
 }
 
@@ -193,7 +196,7 @@ input.text-long.address2.hover, input.text-long.address2.focus {
 }
 
 input.checkbox {
-  border : 1px solid #999;
+  border : 1px solid #666;
   width : .9em;
   height : .9em;
   padding : 0;
@@ -211,8 +214,9 @@ input.text-med,
 input.text-long,
 select.select,
 textarea.textarea {
-  font : 1em verdana, helvetica, palatino sans, tahoma, arial, sans-serif;
-  border : 1px solid #999;
+
+  font : 1em verdana, helvetica, "palatino sans", tahoma, arial, sans-serif;
+  border : 1px solid #666;
   background-color : #fffffe;
   cursor : text;
   padding : 1px 2px;
@@ -253,7 +257,7 @@ textarea.textarea:focus, textarea.textarea.focus {
 }
 
 input.button { 
-  font : 1.1em verdana, helvetica, palatino sans, tahoma, arial, sans-serif;
+  font : 1.1em verdana, helvetica, "palatino sans", tahoma, arial, sans-serif;
   font-weight : bold;
   margin-top : 8px;
   padding : 1px 10px;
@@ -265,7 +269,7 @@ input.button {
 
 input.button:hover, input.button.hover,
 input.button:focus, input.button.focus {
-  color : #333;
+  color : #000;
 }
 
 /* because IE6 sucks - if you have a conditionally served IE6 style sheet add this to it */
@@ -275,3 +279,24 @@ input.button:focus, input.button.focus {
 
 
 /* EOF - Created by Mike Cherim @ http://green-beast.com =========== */
+
+
+@media screen and (max-width: 1214px) {
+
+}
+
+@media screen and (max-width: 964px) {
+
+}
+
+@media screen and (max-width: 768px) { /* The "mobile" breakpoint - footer colums stack here */
+
+}
+
+@media screen and (max-width: 544px) {
+
+}
+
+@media screen and (max-width: 450px) {
+
+}
