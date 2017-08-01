@@ -262,14 +262,26 @@ form.donate {
 	font-size:50px;
 }
 
+	h5 {
+	margin-top:10%;
+	font-size:20px;
+}
+
 p.largeprint {
 	font-size:18px;
 }
 
 p.centered {
-	font-size:12px;
+	font-size:14px;
 }
 
+p.donatetext {
+	font-size:18px;
+}
+
+p.donatedetail {
+	font-size:14px;
+}
 
 #speakerscallout {
 	width:40%;
@@ -304,9 +316,7 @@ margin-top:-40%;
 #image4 {
 	width:100px;
 }
-	h5 {
-	font-size:20px;
-}
+
 
 #wth {
 	width:100%;
