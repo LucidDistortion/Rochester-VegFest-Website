@@ -247,7 +247,7 @@ margin-top:2%;
 
 @media screen and (max-width: 544px) {
 	#main {
-		padding-bottom: 750px;
+		padding-bottom: 850px;
 	}
 
 	h1 {
@@ -312,3 +312,9 @@ margin:none;
 margin-top:2%;
 }
 	}
+
+@media screen and (max-width: 320px) {
+		#main {
+		padding-bottom: 950px;
+	}	
+}

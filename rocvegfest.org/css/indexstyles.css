@@ -116,7 +116,6 @@ p.centered {
 
 #wth {
 	width:100%;
-	border:30px solid black;
 }
 
 
@@ -233,7 +232,6 @@ form.donate {
 
 #wth {
 	width:100%;
-	border:20px solid black;
 	margin-top:-1%;
 }
 
@@ -276,11 +274,11 @@ p.centered {
 }
 
 p.donatetext {
-	font-size:18px;
+	font-size:14px;
 }
 
 p.donatedetail {
-	font-size:14px;
+	font-size:12px;
 }
 
 #speakerscallout {
@@ -320,7 +318,6 @@ margin-top:-40%;
 
 #wth {
 	width:100%;
-	border:10px solid black;
 	margin-top:-6%;
 }
 
@@ -328,15 +325,83 @@ margin-top:-40%;
 
 @media screen and (max-width:320px) {
 	#main {
-		
+		padding-bottom:400px;
 	}
 
 		h1 {
-		font-size:30px;
+		font-size:24px;
+	}
+
+h4.index {
+		font-size:40px;
 	}
 
 	h2 {
-		font-size:22px;
+		margin-top:5%;
 	}
+
+
+	h5 {
+	margin-top:5%;
+}
+
+	p.centered {
+	font-size:11px;
+}
+
+p.donatetext {
+	font-size:12px;
+}
+
+p.donatedetail {
+	font-size:11px;
+}
+
+#image1 {
+width:80px;
+
+}
+
+#image2 {
+	width:80px;
+
+}
+
+#image3 {
+	width:80px;
+
+}
+
+#image4 {
+	width:80px;
+}
+
+#donatefield {
+border:solid black 1px;
+	}
+
+	#donatetable {
+		width:80%;
+		margin-left:10%;
+	}
+
+#tshirt1 {
+	width:100%;
+	margin-right:25% !important;
+	margin-left:-15%;
+	}
+#tshirt2 {
+	width:100%;
+	margin-right:20% !important;
+
 } 
+
+#water-bottle {
+	width:20%;
+}
+
+#paypallogo {
+	width:80%;
+}
+
 

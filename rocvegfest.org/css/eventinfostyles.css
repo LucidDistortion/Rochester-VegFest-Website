@@ -1,5 +1,5 @@
 #main {
-	padding-bottom:300px;
+	padding-bottom:250px;
 }
 /*Headings*/
 h1 {
@@ -37,10 +37,6 @@ h4.faq {
 	color:#6fba23;
 }
 
-span#em {
-	font-family:"Antonio","Times New Roman";
-	font-size:24px;
-}
 
 	 /*Paragraphs*/
 p {
@@ -75,7 +71,9 @@ p.fdbodytext {
 
 #fdcallout {
 	width:70%;
-	height:430px;
+	height:auto;
+	padding-top:2%;
+	padding-bottom:2%;
 	background-color:#50f558;
 	margin-left:15%;
 	border-radius:12px;
@@ -97,9 +95,6 @@ iframe {
     margin-left:10%; 
     }
 
- div.directions {
- 	
- }
 
 div.parkingspace {
 	width:50%;
@@ -107,9 +102,10 @@ div.parkingspace {
 
   #faqfield {
   	width:80%;
-  	height:700px;
+  	height:auto;
   	margin:3% auto;
-  	padding-top:1%;
+  	padding-top:2%;
+  	padding-bottom:2%;
   	background-color:#fec228;
   	border-radius:12px;
   }
@@ -144,12 +140,13 @@ div.parkingspace {
   }
 
 @media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
+	  	 		#main {
+		padding-bottom: 300px;
+	}
+
 	  	 	h3 {
  		font-size:42px;
  	}
-	#main {
-		padding-bottom: 400px;
-	}
 	#sun {
 		width:8%;
 		height:auto;
@@ -163,7 +160,7 @@ div.parkingspace {
  		font-size:34px;
  	}
 	#main {
-		padding-bottom: 400px;
+		padding-bottom: 250px;
 	}
 	#sun {
 		width:7%;
@@ -173,12 +170,39 @@ div.parkingspace {
 		margin-top:1%;
 	}
 
+	 	p.bodytext {
+	font-size:18px;
+}
+
+p.fdbodytext {
+	width:90%;
+	margin-left:5%;
+	font-size:18px;
+
+}
+
 }
 
 @media screen and (max-width: 800px) { 
-	  	 	h3 {
- 		font-size:34px;
+	  	 			#main {
+		padding-bottom: 200px;
+	}
+
+	 h1 {
+		font-size:24px;
+	}
+
+	h2 {
+		font-size:22px;
+} 	 
+
+	h3 {
+ 		font-size:28px;
  	}
+
+ 	h4.faq {
+	font-size:22px;
+}
 	#main {
 		padding-bottom: 400px;
 	}
@@ -194,12 +218,33 @@ div.parkingspace {
 
 
 @media screen and (max-width: 768px) { /* The "mobile" breakpoint - footer colums stack here */
+  	 			#main {
+		padding-bottom: 300px;
+	}
+
+  	 			h1 {
+		font-size:30px;
+	}
+
+	h2 {
+	font-size:22px;
+}
+
   	 	h3 {
  		font-size:28px;
  	}
-	#main {
-		padding-bottom: 600px;
-	}
+
+ 	p.bodytext {
+	font-size:16px;
+}
+
+p.fdbodytext {
+	width:90%;
+	margin-left:5%;
+	font-size:16px;
+
+}
+
 		#sun {
 		width:0%;
 		height:auto;
@@ -207,4 +252,90 @@ div.parkingspace {
 		margin-left:6%;
 		margin-top:3%;
 	}
+
+
+#map {
+    min-width:250px;
+    height:250px;
+    margin-top:2%;
+    margin-left:none; 
+    }
+
+	div.parkingspace {
+	margin-top:5%;
+	width:100%;
 }
+}
+
+@media screen and (max-width:320px) {
+	#main {
+		padding-bottom:400px;
+	}
+
+		h1 {
+		font-size:24px;
+	}
+
+	h2 {
+	font-size:22px;
+}
+
+h3 { 
+	width:90%;
+	margin-left:5%;
+	font-size:26px;
+	 }
+
+h4.faq {
+	font-size:18px;
+}
+
+p.bodytext {
+	font-size:14px;
+}
+
+
+p.fdbodytext {
+	width:90%;
+	margin-left:5%;
+	font-size:14px;
+
+}
+
+#fdcallout {
+	width:90%;
+	height:auto;
+	background-color:#50f558;
+	margin-left:5%;
+	border-radius:12px;
+	padding-top:5%;
+	padding-bottom:5%;
+	margin-top:8%;
+	margin-bottom:8%;
+}
+
+
+#map {
+    min-width:150px;
+    height:150px;
+    margin-top:2%;
+    margin-left:none; 
+    }
+
+div.parkingspace {
+	margin-top:5%;
+	width:100%;
+}
+
+  #faqfield {
+  	width:90%;
+  	height:auto;
+  	padding-top:5%;
+  	padding-bottom:2%;
+  }
+
+
+
+
+
+	}
