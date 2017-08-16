@@ -185,11 +185,8 @@ margin-top:2%;
 	}
 
 	h2.vollisttitle {
-	font-size: 30px;
-	margin-left:20%; 
-	margin-right:-6%;
-	color:#fec227;
-	margin-top:10%;
+	font-size:24px;
+	margin-left:24%;
 }
 
 	#peace {
@@ -203,12 +200,12 @@ margin-right:20%;
 }
 
 	p.bodytext {
-	font-size:20px;
+	font-size:16px;
 
 }
 
 p.volmailDetail {
-	font-size: 16px;
+	font-size: 14px;
 	text-align:center;
 	margin-right:-20%;
 	margin-top:-2%;
@@ -247,20 +244,8 @@ margin-top:2%;
 
 @media screen and (max-width: 544px) {
 	#main {
-		padding-bottom: 850px;
+		padding-bottom: 700px;
 	}
-
-	h1 {
-		font-size:30px;
-	}
-
-	h2.vollisttitle {
-	font-size: 30px;
-	margin-left:20%; 
-	margin-right:-6%;
-	color:#fec227;
-	margin-top:10%;
-}
 
 	#peace {
 	width:90px;
@@ -272,17 +257,7 @@ margin-left:10%;
 margin-right:10%; 
 }
 
-	p.bodytext {
-	font-size:20px;
 
-}
-
-p.volmailDetail {
-	font-size: 16px;
-	text-align:center;
-	margin-right:-20%;
-	margin-top:-2%;
-}
 
 p.detailtext {
 	font-size:14px;
@@ -317,4 +292,17 @@ margin-top:2%;
 		#main {
 		padding-bottom: 950px;
 	}	
+
+		h1 {
+		font-size:24px;
+	}
+
+		h2.vollisttitle {
+	font-size: 22px;
+}
+
+p.bodytext {
+font-size:14px;
+}
+
 }
