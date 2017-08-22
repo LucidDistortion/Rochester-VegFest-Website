@@ -114,13 +114,6 @@ div.button:active {
 }
 
 /*Donate Styles*/
-h2 {
-	font-family:"PoplarSTD","Times New Roman";
-	font-size:42px;
-	color:black;
-	text-align:center;
-	margin-top:2%;
-}
 
 p.donatetext {
 	width:80%;
@@ -225,7 +218,7 @@ form.donate {
 
 	h2 {
 		font-size:22px;
-		margin-top:10%;
+		
 	}
 
 	
@@ -235,6 +228,25 @@ p.donatetext {
 
 p.donatedetail {
 	font-size:12px;
+}
+
+	#donatetable {
+		width:100%;
+	}
+
+.vendorimg {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10%;
+	padding:2% 0;
+}
+
+#tshirt2 {
+float:left;
+margin-left:auto;
+margin-right:auto;
+
 }
 }
 
@@ -290,7 +302,7 @@ border:solid black 1px;
 #tshirt1 {
 	width:100%;
 	margin-right:25% !important;
-	margin-left:-15%;
+	margin-left:-15% !important;
 	}
 #tshirt2 {
 	width:100%;
