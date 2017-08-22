@@ -69,12 +69,8 @@ Rochester, NY 14602</p>
 
 <div id="contactfield">
 
-
-
-
 <!--Contact form PHP-->
 <?php include_once("gbcf-v3/form.php"); ?>
-
 
 </div>
 

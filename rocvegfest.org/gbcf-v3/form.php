@@ -92,9 +92,9 @@ echo $user_message;
  <fieldset class="req-set"<?php echo $req_border; ?>> 
   <legend class="req-legend"><span<?php echo $sub_legnds; ?>><?php echo $req1_legend; ?></span></legend>
    <label id="name-error" for="name" class="req-label"<?php echo $name_errlbl; ?>><?php echo $name_label; echo $required_symbol; ?></label><?php echo $add_break; ?>
-    <input type="text" class="text-med" name="name" value="<?php echo $name_value; ?>" size="32" maxlength="<?php echo $name_len; ?>" id="name"<?php echo $name_border; ?><?php echo $x_or_h; ?>><?php echo $add_break; ?>
+    <input type="text" class="text-med variable-width-field" name="name" value="<?php echo $name_value; ?>" maxlength="<?php echo $name_len; ?>" id="name"<?php echo $name_border; ?><?php echo $x_or_h; ?>><?php echo $add_break; ?>
    <label id="email-error" for="email" class="req-label"<?php echo $email_errlbl; ?>><?php echo $email_label; echo $required_symbol ?></label><?php echo $add_break; ?>
-    <input type="text" class="text-med" name="email" value="<?php echo $email_value; ?>" size="32" maxlength="<?php echo $email_len; ?>" id="email"<?php echo $email_border; ?><?php echo $x_or_h; ?>><?php echo $add_break; ?>
+    <input type="text" class="text-med variable-width-field" name="email" value="<?php echo $email_value; ?>" maxlength="<?php echo $email_len; ?>" id="email"<?php echo $email_border; ?><?php echo $x_or_h; ?>><?php echo $add_break; ?>
  <?php if(($get_org != "yes") && ($get_phone != "yes") && ($get_website != "yes") && ($get_address != "yes") && ($get_optmenu != "yes")) { 
         // Nada
       } else { ?>
@@ -157,7 +157,7 @@ echo $user_message;
   <legend class="req-legend"><span<?php echo $sub_legnds; ?>><?php echo $req2_legend; ?></span></legend>
 <?php } ?>
    <label id="subject-error" for="subject" class="req-label"<?php echo $subject_errlbl; ?>><?php echo $subject_label; echo $required_symbol; ?></label><?php echo $add_break; ?>
-    <select class="select" name="subject" id="subject"<?php echo $subject_border; ?>>
+    <select class="select variable-width-field" name="subject" id="subject"<?php echo $subject_border; ?>>
      <?php 
          echo $subject_data;
     reset($subjects);
@@ -166,9 +166,9 @@ echo $user_message;
   } ?>
     </select><?php echo $add_break; ?>
    <label id="message-error" for="message" class="req-label"<?php echo $message_errlbl; ?>><?php echo $message_label; echo $required_symbol; ?></label><?php echo $add_break; ?>
-    <textarea class="textarea" rows="12" cols="60" name="message" id="message"<?php echo $message_border; ?>><?php echo $message_value; ?></textarea><?php echo $add_break; ?>
+    <textarea class="textarea variable-width-field" rows="12" name="message" id="message"<?php echo $message_border; ?>><?php echo $message_value; ?></textarea><?php echo $add_break; ?>
    <label id="antispam-error" for="antispam" class="req-label"<?php echo $antispam_errlbl; ?>><?php echo $spam_question; echo $required_symbol; ?></label><?php echo $add_break; ?>
-    <input type="text" class="text-short" name="antispam" value="<?php echo $spam_value; ?>" size="22" maxlength="<?php echo $spam_len; ?>" id="antispam"<?php echo $antispam_border; ?><?php echo $x_or_h; ?>> 
+    <input type="text" class="text-short variable-width-field" name="antispam" value="<?php echo $spam_value; ?>" maxlength="<?php echo $spam_len; ?>" id="antispam"<?php echo $antispam_border; ?><?php echo $x_or_h; ?>> 
    <label class="req-label explain">- <?php echo $spam_explain; ?></label><?php echo $add_break; ?>
  </fieldset>
    <div<?php echo $offset; ?>>
@@ -183,11 +183,12 @@ echo $user_message;
         // Nada
       } else { ?>
    <label id="cc-opt-error" class="opt-label check">
-    <input class="checkbox" type="checkbox" name="cc-opt" id="cc-opt" value="cc"<?php echo $cc_chk_value; ?><?php echo $x_or_h; ?>>&nbsp;&nbsp;<?php echo $cc_label; ?></label><?php echo $add_break; ?>
+    <input class="checkbox" type="checkbox" name="cc-opt" id="cc-opt" value="cc"<?php echo $cc_chk_value; ?><?php echo $x_or_h; ?>>&nbsp;&nbsp;<?php echo $cc_label; ?></label><?php echo $add_break; ?><?php echo $add_break; ?><?php echo $add_break; ?>
 <?php } ?>
     <input type="submit" class="button" name="<?php echo $form_id; ?>" id="<?php echo $form_id; ?>" value="<?php echo $submit_text; ?>" alt="<?php echo $submit_text; ?>"<?php echo $x_or_h; ?>><br<?php echo $x_or_h; ?>>
  </fieldset>
-</form><?php
+</form>
+<?php
 ### No edit
 
     echo "\n";
@@ -200,7 +201,7 @@ echo $user_message;
     $show_stats   = strtolower($show_stats);
     $show_author  = strtolower($show_author);
 if(($show_stats == "yes") || ($show_author == "yes") || ($show_privacy == "yes")) {
-    echo ' <p class="form-footer"><small>';
+    echo '<br><br> <p class="form-footer"><small>';
 }
 
 

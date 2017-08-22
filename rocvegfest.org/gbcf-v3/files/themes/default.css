@@ -8,7 +8,7 @@
 
 #form-div { 
   font-family : verdana, helvetica, "palatino sans", tahoma, arial, sans-serif;
-  width : 70%;
+  width : 90%;
   margin : auto;
   color : #000;
   line-height : 1.7em;
@@ -92,7 +92,7 @@
 /* === structural form elements ==================================== */
 
 form#gbcf-form { 
-  width:80%;
+  width:100%;
   height:auto;
 }
 
@@ -226,7 +226,7 @@ select.select {
   padding : 1px 0;
 }
 
-input.text-short {
+/*input.text-short {
   width : 100px;
 }
 
@@ -241,7 +241,7 @@ input.text-long {
 textarea.textarea {
   width : 440px;
   height : 200px;
-}
+}*/
 
 select.select, select.select option {
   cursor : pointer;
@@ -281,22 +281,26 @@ input.button:focus, input.button.focus {
 /* EOF - Created by Mike Cherim @ http://green-beast.com =========== */
 
 
-@media screen and (max-width: 1214px) {
+/*@media screen and (max-width: 1214px) {
+  .variable-width-field {
+    width: 1000px;
+  }
 
+}*/
+@media screen and (min-width: 965px) {
+  .variable-width-field {
+    width: 600px;
+  }
 }
 
 @media screen and (max-width: 964px) {
-
+  .variable-width-field {
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 768px) { /* The "mobile" breakpoint - footer colums stack here */
-
-}
-
-@media screen and (max-width: 544px) {
-
-}
-
-@media screen and (max-width: 450px) {
-
+  .variable-width-field {
+    width: 200px;
+  }
 }
