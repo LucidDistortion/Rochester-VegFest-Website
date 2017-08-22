@@ -17,8 +17,9 @@ h1 {
 	margin-top:3%;
 	margin-bottom:3%;
 	padding-top: 1%;
-	padding-bottom: 1%;
+	padding-bottom:1%;
 	width:80%;
+	height:auto;
 	background-color:#29cfbd;
 }
 
@@ -31,6 +32,8 @@ p {
 p.smallprint {
 	font-size:12px;	
 	float:right;
+	margin-top:6%;
+
 }
 
 p.captions {
@@ -40,7 +43,7 @@ p.captions {
 	width:80%;
 	padding:3%;
 	text-align:center;
-  top: 50%;
+  top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -59,7 +62,6 @@ div.speakerCaption {
   opacity: 0;
   transition: .5s ease;
 
-}
 }
 
 /*List Items*/
@@ -107,10 +109,11 @@ a.anchorlink:link {
 	display:block;
 }
 
-
-.container:hover .speakerCaption {
+	.container .speakerCaption {
 	opacity:1;
+
 }
+
 
 @media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
 	#main {
@@ -155,7 +158,12 @@ a.anchorlink:link {
 		width:80%;
 	}
 
+	p.captions {
+	font-size:18px;
 }
+
+
+
 
 @media screen and (max-width: 768px) { /* The "mobile" breakpoint - footer colums stack here */
 	#main {
@@ -203,6 +211,18 @@ width:0;
 	#smallimg8 {
 		width:80%;
 	}
+
+	p.captions {
+	font-size:16px;
+}
+
+p.smallprint {
+	font-size:10px;	
+	float:right;
+	margin-top:20%;
+
+}
+
 }
 
 @media screen and (max-width: 450px) {
